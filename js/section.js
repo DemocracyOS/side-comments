@@ -347,7 +347,7 @@ Section.prototype.render = function() {
     voting: this.voting
   }))
   el.appendTo(this.$el);
-  timeago('.ago', { lang: this.locale, interval: 10 });
+  timeago('.ago', { lang: this.locale, interval: 10000 });
 };
 
 /**
